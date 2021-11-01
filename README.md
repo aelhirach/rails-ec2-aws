@@ -49,5 +49,5 @@ yarn install
 
 ### Start server 
 
-sudo apt update 
+
 rails s -p 3003 -b 0.0.0.0

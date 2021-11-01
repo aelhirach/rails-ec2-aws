@@ -1,18 +1,18 @@
 ### Install asdf and ruby 
 
-sudo apt install curl git
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
-echo '. $HOME/.asdf/asdf.sh' >> ~/.bashrc
-echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
-source ~/.bashrc
+- sudo apt install curl git
+- git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
+- echo '. $HOME/.asdf/asdf.sh' >> ~/.bashrc
+- echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
+- source ~/.bashrc
 
 ### Install llibrary dependencies & ruby 
-sudo apt-get install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev gcc
-asdf plugin add ruby
-asdf plugin-update ruby
-asdf install ruby latest
-asdf global ruby 3.0.2 
-ruby -v
+- sudo apt-get install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev gcc
+- asdf plugin add ruby
+- asdf plugin-update ruby
+- asdf install ruby latest
+- asdf global ruby 3.0.2 
+- ruby -v
 
 ### Install postgreSQL 
 apt install postgresql postgresql-contrib libpq-dev
